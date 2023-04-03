@@ -43,7 +43,7 @@ const Login = () => {
         <span className="title">Login</span>
         <form onSubmit={handleSubmit}>
         <GoogleButton
-                style={{ marginLeft: '12%', width: "70%", outline: "none"}}
+                style={{ marginLeft: '15%', width: "70%", outline: "none"}}
                 onClick={signInWithGoogle}
                 label='Войти с Google'
               />     
